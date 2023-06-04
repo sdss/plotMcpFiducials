@@ -16,7 +16,7 @@ For development
 poetry install
 ```
 
-The script requires [mpc_fiducials](https://github.com/sdss/mc_fiducials) to be available at the `$MCP_FIDUCIALS_DIR` envvar.
+The script requires [mcp_fiducials](https://github.com/sdss/mcp_fiducials) to be available at the `$MCP_FIDUCIALS_DIR` envvar.
 
 The installation simply sets up a Python console script, `plotMcpFiducials` pointing to `src/plotmcpfiducials/plotmcpfiducials.py`.
 
