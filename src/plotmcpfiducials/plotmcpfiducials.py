@@ -78,7 +78,7 @@ except ImportError:
 def getMJD():
     """Get the MJD for the current day as an int."""
 
-    return get_sjd()
+    return get_sjd(observatory="APO")
 
 
 axisAbbrevs = dict(azimuth="az", altitude="alt", rotator="rot")
